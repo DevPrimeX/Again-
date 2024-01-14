@@ -13,7 +13,9 @@ function typeWriter() {
       document.getElementById("text1").innerHTML = "";
     else if (txt1.charAt(i) == "|") {
       $(".bg_heart").css("background-image", "')");
-    } else document.getElementById("text1").innerHTML += txt1.charAt(i);
+    } else {
+      document.getElementById("text1").innerHTML += txt1.charAt(i);
+    }
     i++;
     setTimeout(typeWriter, speed);
   } else {
@@ -24,7 +26,15 @@ function typeWriter() {
     button.onclick = function() {
       window.location.href = "https://example.com"; // Replace with your desired link
     };
-    // Append the button to the body or any other container
-    document.body.appendChild(button);
+    // Add some CSS styles to the button
+    button.style.marginTop = "10px";
+    button.style.padding = "10px 20px";
+    button.style.backgroundColor = "#3498db";
+    button.style.color = "white";
+    button.style.border = "none";
+    button.style.borderRadius = "5px";
+    button.style.cursor = "pointer";
+    // Append the button after the text
+    document.getElementById("text1").appendChild(button);
   }
 }
