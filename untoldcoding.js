@@ -1,7 +1,7 @@
 var i = 0;
 var txt1 =
-  "Hi ....!  <<               Now I wan't to say something special to you. <<I believe you might have already figured out <<<who I am, and perhaps even blocked me. I created this site to express things > << I might find difficult to say face to face. It's amazing how, 1.5 years ago, we knew each other and talked, but now it feels like we're strangers. > << I acknowledge my mistakes, and I apologize, but you also have a role in this.> << You once said I'm good-hearted, then called me bad. << I accepted it, but it would have been better if you discussed it with me first.> <<If you haven't blocked me yet, delete the message from the number that contacted you.> << After your exam, we can talk. By the way, if you've forgiven me for that, let me know.>"
-var speed = 80;
+  "Hi ....!  <<               Now I wan't to say something special to you. << tumhe shyd abhi tak pta chal gya hoga ki me kon hu or shyd block bhi kar diya hoga > << Is site ko maine serif vo baat bolne ke liye banaya hai joh me shyd face to face na bol sakhu><<Kitne Kamal ki baat hai na 1.5 saal phle ham ek dusre ko jante the or> << baat bhi karte the but ab dekho ese ban gye hai jese stranger's hai or isme galti bhi shyd kahi na kahi meri hi hai > <<or uske liye me sorry bhi hu but isme Teri bhi galti hai me tu jis baar par gussa hai vo tune mere se kabhi discuss ki hi nhi tune khud hi bola tha > <<ki me good hearted hu or dusre hi pal bol diya ki me utna bura bhi hu I accepted it ki me hu bura jada><<But atleast phle mere se toh puchti fir decide kartiOr shyd tu sochegi ki me fir vaise hi chat par> << baat karne aya hu toh vo me nhi aya hu first ye serif ye baate bolne aya tha ki tu nhi> << Teri friendships hi mangi thi joh bhi kisi ne chin li 😂 kher chhod aagr abhi tak block nhi kiya toh jis no.> << Se msg aya hai use bas delete kar diyo block nhi or after your exam kuch bolna ho toh me yaha mil jaunga > <<Btw iske baad itu 🤏 sa bhi maaf Kiya ho toh bta diyo>"
+  var speed = 80;
 
 typeWriter();
 
@@ -24,7 +24,7 @@ function typeWriter() {
     button.innerHTML = "Click me!";
     // Set an onclick function to redirect when clicked
     button.onclick = function() {
-      window.location.href = "https://example.com"; // Replace with your desired link
+      window.location.href = "https://www.instagram.com/learn.somthing.new?igsh=OGQ5ZDc2ODk2ZA=="; // Replace with your desired link
     };
     // Add some CSS styles to the button
     button.style.marginTop = "10px";
