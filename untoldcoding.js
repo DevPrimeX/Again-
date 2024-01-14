@@ -1,7 +1,7 @@
 var i = 0;
 var txt1 =
-  "Hi Love.....!  <<               Now I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seems something Special to me.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I haven't said these words to anyone and I won't say to anyone in future...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <SweetHeart.....! |                  <<<< Give me One chance to Prove my Love ...!   by untoldcoding";
-var speed = 55;
+  "Hi Love.....!  <<               Now I wan't to say something special to you. <<Hi there, I believe you might have already figured out <<<who I am, and perhaps even blocked me. I created this site to express things > <<<I might find difficult to say face to face. It's amazing how, 1.5 years ago, we knew each other and talked, but now it feels like we're strangers. ><<<I acknowledge my mistakes, and I apologize, but you also have a role in this.> <<<You once said I'm good-hearted, then called me bad. << I accepted it, but it would have been better if you discussed it with me first.><<<If you haven't blocked me yet, delete the message from the number that contacted you.><<After your exam, we can talk. By the way, if you've forgiven me for that, let me know.>
+  var speed = 55;
 typeWriter();
 function typeWriter() {
   if (i < txt1.length) {
